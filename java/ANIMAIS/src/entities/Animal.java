@@ -1,31 +1,31 @@
 package entities;
 
-public class Animal {
+public abstract class Animal {
 
 	//atributos
 	private String nome;
 	private int idade;
 	private String emitirSom;
 	
-	//construtores
+	/*//construtores
 	public Animal(String nome, int idade, String emitirSom) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
 		this.emitirSom = emitirSom;
 	}
-
+*/
 	
 	//encapsulamento
 	public String getNome() {
 		return nome;
 	}
 
-	/*
+	
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	*/
+	
 
 	public int getIdade() {
 		return idade;
@@ -45,7 +45,9 @@ public class Animal {
 	
 	//metodos
 	
-	
+	public void som() {
+		
+	}
 	
 	
 	

@@ -2,13 +2,13 @@ package entities;
 
 public class Cachorro extends Animal {
 
-	public Cachorro(String nome, int idade, String emitirSom) {
+	/*public Cachorro(String nome, int idade, String emitirSom) {
 		super(nome, idade, emitirSom);
 		
 	}
-
-	//metodos Essa parte seria com polimorfismo
-	public void Som() {
+*/
+	@Override
+	public void som() {
 		System.out.println("auauau");
 	}
 	

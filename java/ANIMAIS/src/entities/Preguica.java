@@ -2,13 +2,13 @@ package entities;
 
 public class Preguica extends Animal {
 
-	public Preguica(String nome, int idade, String emitirSom) {
+	/*public Preguica(String nome, int idade, String emitirSom) {
 		super(nome, idade, emitirSom);
 		
 	}
-	
-	//metodos  Essa paarte seria com poliformismo
-	public void Som() {
+	*/
+	@Override
+	public void som() {
 		System.out.println("shhh");
 	}
 	

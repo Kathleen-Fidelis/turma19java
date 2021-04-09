@@ -13,13 +13,25 @@ public class TesteAnimal {
 		
 		Locale.setDefault(Locale.US);
 		
-		Cachorro anim1 = new Cachorro("Cachorro, ", 8, "auau");
-		Cavalo anim2 = new Cavalo("Cavalo", 7, "pocotó");
-		Preguica anim3 = new Preguica("Preguiça", 7, "shhh");
+		Cachorro anim1 = new Cachorro();
+		Cavalo anim2 = new Cavalo();
+		Preguica anim3 = new Preguica();
 		
-		System.out.println(anim1.getNome() + " idade " + anim1.getIdade() + " anos, " + " som: " + anim1.getEmitirSom() );
-		System.out.println(anim2.getNome() + " idade " + anim2.getIdade() + " anos, " + " som: " + anim2.getEmitirSom() );
-		System.out.println(anim3.getNome() + " idade " + anim3.getIdade() + " anos, " + " som: " + anim3.getEmitirSom() );
+		anim1.setNome("Lili");
+		anim1.setIdade(4);
+		anim1.som();
+		anim2.setNome("Pé de pao");
+		anim2.setIdade(10);
+		anim2.som();
+		anim3.setNome("Sid");
+		anim3.setIdade(6);
+		anim3.som();
+		
+		
+		
+		System.out.println(anim1.getNome() + " idade " + anim1.getIdade() + " anos ");
+		System.out.println(anim2.getNome() + " idade " + anim2.getIdade() + " anos ");
+		System.out.println(anim3.getNome() + " idade " + anim3.getIdade() + " anos ");
 		
 	}
 
