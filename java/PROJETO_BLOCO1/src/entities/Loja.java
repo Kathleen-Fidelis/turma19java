@@ -64,11 +64,11 @@ public class Loja {
 			System.out.println("\t\t" + compra.getListaValorTotalCadaProduto().get(indiceProd));
 		}
 		System.out.println();
-		System.out.println("Valor Total: " + compra.getValorTotal());
+		System.out.printf("Valor Total: %.2f\n" , compra.getValorTotal());
 		System.out.printf("Valor Imposto: %.2f\n" , compra.getValorImposto());
-		System.out.println("Valor Desconto: " + compra.getValorDesconto());
-		System.out.println("Valor Juros: " + compra.getValorJuros());
-		System.out.println("Valor Parcelas: " + compra.getValorParcelas());
+		System.out.printf("Valor Desconto: %.2f\n" , compra.getValorDesconto());
+		System.out.printf("Valor Juros: %.2f\n" , compra.getValorJuros());
+		System.out.printf("Valor Parcelas: %.2f\n" , compra.getValorParcelas());
 		System.out.println("Qtda. Parcelas: " + compra.getQuantidadeParcelas());
 		System.out.println();
 	}
