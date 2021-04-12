@@ -65,7 +65,8 @@ public class Loja {
 		}
 		System.out.println();
 		System.out.println("Valor Total: " + compra.getValorTotal());
-		System.out.println("Valor Imposto: " + compra.getValorImposto());
+		 System.out.printf("Valor Imposto: %.2f\n" , compra.getValorImposto());
+		//System.out.println("Valor Imposto: " + compra.getValorImposto());
 		System.out.println("Valor Desconto: " + compra.getValorDesconto());
 		System.out.println("Valor Juros: " + compra.getValorJuros());
 		System.out.println("Valor Parcelas: " + compra.getValorParcelas());
