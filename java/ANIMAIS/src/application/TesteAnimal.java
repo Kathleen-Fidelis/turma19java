@@ -20,7 +20,7 @@ public class TesteAnimal {
 		anim1.setNome("Lili");
 		anim1.setIdade(4);
 		anim1.som();
-		anim2.setNome("Pé de pao");
+		anim2.setNome("Pé de pano");
 		anim2.setIdade(10);
 		anim2.som();
 		anim3.setNome("Sid");

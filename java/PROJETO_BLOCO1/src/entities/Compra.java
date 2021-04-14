@@ -10,7 +10,7 @@ public class Compra {
 	private List<Double> listaValorTotalCadaProduto;
 	private int quantidadeParcelas;
 	private double valorTotal;
-	private double valorImposto; //9% - Falta Fazer
+	private double valorImposto; //9% 
 	private double valorDesconto; //10%
 	private double valorJuros; //10% e 20%
 	private double valorParcelas;
@@ -66,7 +66,7 @@ public class Compra {
 	}
 
 	
-	//Métodos publicos
+	//Métodos públicos
 	public void addProduto(Produto prod, int quantidade) {
 		this.listaProdutos.add(prod);	
 		this.listaQuantidade.add(quantidade);
