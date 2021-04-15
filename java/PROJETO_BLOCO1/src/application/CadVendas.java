@@ -58,9 +58,6 @@ public class CadVendas {
 							System.out.print("\nEscolha o Cod do Jogo (numeros ou 0 para voltar): ");
 							codProduto = leia.nextInt();
 							
-							if (codProduto != 0) {
-								codProduto = codProduto + 1;
-							}
 							
 							if (codProduto > 6 || codProduto < 0) {
 								System.out.println("Você não selecionou um código válido\n");

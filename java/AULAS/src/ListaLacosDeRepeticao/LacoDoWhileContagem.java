@@ -8,12 +8,12 @@ public class LacoDoWhileContagem {
 		
 		do {
 			if (x > 300 && x < 400) {
-				System.out.println(x + "+ 3=");
+				System.out.print(x + " + 3 = ");
 				x =  x + 3;
 				System.out.println(x);
 			}
 			else {
-				System.out.println(x + "+ 5=");
+				System.out.print(x + " + 5 = ");
 				x = x + 5;
 				System.out.println(x);
 			}
